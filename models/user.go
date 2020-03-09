@@ -45,7 +45,6 @@ func GetUsers() []*User {
 		if err != nil {
 			log.Fatal(err)
 		}
-
 		result = append(result, element)
 	}
 
